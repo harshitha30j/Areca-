@@ -1,0 +1,114 @@
+
+body{
+    background-image: url(Background.jpg); /* Path to your image file */
+    background-size:auto; /* Ensure the image covers the entire background */
+    background-position:top;
+
+}
+.background{
+    opacity:20%;
+    border: 2px solid black;
+}
+logo{
+    padding-top: 0%;
+    height:-50%;
+    left: 200%;
+    width:-10%;
+}
+div.transbox {
+    margin: 8px;
+    padding:-0.3cm;
+    background-color: #ffffff; 
+    color:hsl(120, 80%, 2%);
+    opacity: 0.6;
+    font-weight:8000;
+    text-align: center;
+    font-weight: bold;
+    font-size:large;
+    font-weight: 900;
+    text-decoration: solid;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    white-space: nowrap;
+    transform: translateX(50%);
+    /* Animate to the left */
+    animation: scroll-left 10s linear infinite;
+}
+@keyframes scroll-left {
+    50% {
+        transform: translateX(100%);
+    }
+
+    50% {
+        transform: translateX(-50%);
+    }
+}
+ 
+div.transbox2{
+    margin: 0.5px;
+    padding:0.01cm;
+    background-color: whitesmoke;   
+    opacity:67%;
+    color:hwb(0 1% 91%);
+    font-weight:8000;
+    text-align: center;
+    font: weight 600px;;
+    font-size:large;
+    font-weight:bolder;
+    text-decoration:solid;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+  } 
+  ul {
+    list-style-type: none;
+    margin: 10px;
+    padding:0;
+    overflow: hidden;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display:block;
+    color:#ef000ce6;
+    text-align: center;
+    width: 80px;
+    border: 6px solid rgb(33, 109, 10);   
+    padding: 5px;
+    margin: 2px;
+}
+/* Default styles */
+
+/* Your existing CSS code goes here */
+
+/* Media queries for responsiveness */
+@media only screen and (max-width: 768px) {
+  /* Styles for devices with a maximum width of 768px (e.g., tablets and mobile phones) */
+  body {
+      width: fit-content;
+  }
+
+  #logo {
+      width: fit-content;
+  }
+
+  /* Add more specific styles for smaller screens as needed */
+}
+
+@media only screen and (max-width: 480px) {
+  /* Styles for devices with a maximum width of 480px (e.g., smaller mobile phones) */
+  body {
+      width: fit-content;
+      font-size: xx-small;
+  }
+
+  #logo {
+      width:0cap;
+  }
+
+  /* Add more specific styles for even smaller screens as needed */
+}
+
+  
+
+

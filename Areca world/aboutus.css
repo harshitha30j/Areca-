@@ -1,0 +1,51 @@
+body{
+    background-image: url(abbo.jpg); /* Path to your image file */
+    background-size:cover;
+
+}
+logo{
+    padding: top 40%px;
+    height:-50%;
+    left: 200%;
+    width:-10%;
+}
+div.transbox {
+    margin: 8px;
+    padding: -0.1cm;
+    color:rgb(2, 27, 10);
+    opacity: 1;
+    font-weight:8000;
+    text-align: center;
+    font-weight: bold;
+    font-size:large;
+    font-weight: 900;
+    text-decoration: solid;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}  
+h4{
+    color:black;
+    padding:0%;
+    margin: 0%;
+}
+@media only screen and (max-width: 768px) {
+    body {
+        background-image: url(abbo.jpg);
+        font-size: 45px; /* Adjust text size */
+    }
+}
+
+/* Adjust font for even smaller screens */
+@media only screen and (max-width: 480px) {
+    body {
+        font-family: 'Roboto', sans-serif; /* Change font to Roboto */
+        font-size: 14px; /* Further adjust text size */
+    }
+}
+
+
+  
+  
+  
+  
+
+

@@ -1,0 +1,17 @@
+img{
+    padding-top: 0%;
+    height:-30%;
+    left: 150%;
+    width:-10%;
+    size: 0cqmax;
+    max-width: 100%; /* Ensure images don't exceed the width of their container */
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Ensure images don't have any default spacing issues */
+    margin: 0 auto; /* Center align images horizontally */
+}
+a{
+    color: blue;
+    font-size: xx-large;
+}
+
+

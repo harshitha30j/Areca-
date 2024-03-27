@@ -1,0 +1,12 @@
+video1{
+    animation-play-state: running;
+    animation-iteration-count: infinite;
+    -o-animation-play-state: running;
+}
+
+
+video2{
+    animation-play-state: running;
+    animation-iteration-count: infinite;
+    -o-animation-play-state: running;
+}
